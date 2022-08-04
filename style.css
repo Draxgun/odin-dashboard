@@ -52,7 +52,7 @@ body{
     display: grid;
     grid-template-columns: 0.2fr 0.5fr;
     row-gap: 10px;
-    padding-left: 2vw;
+    padding-left: 3vw;
     justify-items: start;
     align-items: center;
 }
@@ -74,5 +74,33 @@ body{
 
 
 .header{
-    background-color: blue;
+    background-color: white;
+    padding:1vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 5fr 1fr;
+}
+
+.searchBar{
+    display:grid;
+    grid-template-columns: 0.5fr 5fr;
+}
+
+#searchIcon{
+    grid-column: 1/2;
+
+}
+
+input{
+    grid-column:2/3;
+    width: stretch;
+    border-radius: 50px;    
+}
+
+
+
+.content{
+    background-color: red;
 }

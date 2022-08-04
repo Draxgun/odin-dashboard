@@ -85,7 +85,7 @@ body{
 
 .searchBar{
     display:grid;
-    grid-template-columns: 0.5fr 5fr;
+    grid-template-columns: minmax(50px, 100px) minmax(400px, 1000px);
 }
 
 #searchIcon{
@@ -96,6 +96,7 @@ body{
 input{
     grid-column:2/3;
     width: stretch;
+    height: 2rem;
     border-radius: 50px;    
 }
 

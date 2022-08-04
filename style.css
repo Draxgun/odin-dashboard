@@ -31,24 +31,45 @@ body{
 
 
 .logo{
-    font-size:calc(20px + 1vw) ;
+    font-size:calc(30px + 1vw) ;
     display:grid;
     grid-template-columns: 1fr 1fr;
+    place-items: center;
+    margin-bottom: 2vh;
+    margin: 1vw;
 }
+
+.logo>.material-icons.custom{
+    font-size: 4rem;
+    padding:calc(2px + 0.2vw) ;
+}
+
+
 
 .tabMenu, .settings{
-    font-size:calc(10px + 1vw);
-    padding: calc(20px + 1vw) ;
+    font-size:calc(8px + 1vw);
+    padding: calc(10px + 1vw) ;
     display: grid;
-    grid-template-columns: 0.2fr 1fr;
-    row-gap: calc(5px + 1vw);
-
+    grid-template-columns: 0.2fr 0.5fr;
+    row-gap: 10px;
+    padding-left: 2vw;
+    justify-items: start;
+    align-items: center;
 }
 
-.tabMenu >.material-icons.custom{
+.tabMenu{
+    margin-bottom: 1vh;
+}
+
+.tabMenu >.material-icons.custom , .settings>.material-icons.custom{
     font-size: 2.5rem;
 }
 
+.tabMenu>.textLogo, .settings >.textLogo{
+    color: white;
+    text-align: start;
+    padding: 0;
+}
 
 
 

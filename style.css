@@ -177,5 +177,26 @@ button:hover{
 .content{
     background-color:#eae7f1;
     box-shadow: inset 0 5px 5px #e2e8f0;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows:  1fr 1fr;
 }
 
+
+.projects{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background-color: red;
+}
+
+.anouncements{
+    grid-column: 2/3;
+    grid-row: 1/3;
+    background-color: blue;
+}
+
+.trending{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color:orange;
+}

@@ -101,6 +101,7 @@ input{
     border-color: white;
     border: none;
     background-color:  #eae7f1;
+    padding-left: 1vw;
 }
 
 /* Image part */
@@ -127,7 +128,7 @@ input{
     grid-column: 1/2;
     grid-row: 2/3;
     display: grid;
-    grid-template-columns: 1fr 8fr;
+    grid-template-columns: 1fr 9fr;
     place-items: center;
 }
 
@@ -143,10 +144,34 @@ input{
 }
 
 .greeting{
-    font-size: 1rem;
+    font-size: calc(2px + 0.75vw);
 }
 .username{
-    font-size: 1.75rem;
+    font-size: calc(8px + 1vw);
+}
+
+.buttons{
+    display: flex;
+    justify-content:space-between;
+    gap: 20px;
+
+    align-items: center;
+}
+
+button{
+    background-color: #4ade80;
+    border-radius: 20px;
+    border: none;
+    font-size:1rem;
+    color: white;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    align-content: center;
+}
+
+button:hover{
+    background-color: #1d5c34;
 }
 
 .content{

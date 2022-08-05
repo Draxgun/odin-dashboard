@@ -253,15 +253,35 @@ button:hover{
     grid-column: 2/3;
     grid-row: 1/2;
     padding: 1vw;
+    width: calc(200px+1vw);
 }
 
 .anouncementContainer{
     border-radius: 10px;
-    height: stretch;
     background-color: white ;
     padding: 1vw;
     box-shadow: 8px 8px 8px -4px lightgrey;
     height: 80%;
+    
+}
+
+
+.anouncementContainer{
+    display: flex;
+    flex-direction:column;
+}
+
+.anouncement{
+    border-bottom: black 1px solid;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+    height: 100%;
+    
+}
+
+.anouncementText{
+    color: rgb(107, 106, 106);
+    width: 80%;
 }
 
 .trending{
